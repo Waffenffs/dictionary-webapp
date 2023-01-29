@@ -1,0 +1,183 @@
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 0 50vh;
+}
+
+.form {
+  background-color: #f4f4f4;
+  align-self: center;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 30px;
+  width: 60vh;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.landscape {
+  font-size: 30px;
+}
+
+input {
+  border: none;
+  background-color: inherit;
+  width: 100%;
+  font-size: 20px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.search {
+  cursor: pointer;
+  font-size: 23px;
+}
+
+.upperSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.word {
+  font-size: 55px;
+  color: #2a2a2a;
+  margin: 0;
+}
+
+.phonetic {
+  font-size: 20px;
+  color: #b46cdc;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.leftSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.play {
+  font-size: 65px;
+  color: #b46cdc;
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+.play:hover {
+  filter: brightness(110%);
+}
+
+.midSection {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.break {
+  padding: 1px;
+  background-color: #f4f4f4;
+  border: none;
+  margin: 0;
+}
+
+.type {
+  color: #2a2a2a;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 9px;
+}
+
+.meaning,
+.synonymTitle {
+  color: #909090;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+ul li::marker {
+  color: #b46cdc;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+ul li {
+  color: #3d3d3d;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.synonymContainer {
+  margin-top: 70px;
+}
+
+.synonym {
+  color: #9c65d3;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.synonymTitle {
+  margin-right: 15px;
+}
+
+.span {
+  font-size: 18px;
+  color: #909090;
+  font-weight: 300;
+  margin-top: 120px;
+}
+
+a {
+  color: #646464;
+}
+
+.errorContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 200px;
+  gap: 30px;
+  color: #646464;
+  height: 100vh;
+}
+
+.error {
+  font-weight: 300;
+}
+
+.errorIcon {
+  font-size: 100px;
+}
+
+nav {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.bookIcon {
+  font-size: 35px;
+  color: #c1c1c1;
+  margin-right: auto;
+}
+
+.lightMode,
+.darkMode {
+  font-size: 30px;
+  cursor: pointer;
+}
